@@ -27,7 +27,7 @@ export const Login = () => {
   const handleSubmit = async  (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    const login = await axios.post("../../api/login",credentials)
+    const login = await axios.post("api/login",credentials)
 
     console.log(login)
 

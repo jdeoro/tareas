@@ -3,7 +3,7 @@
 
 import { useGlobalstate } from "@/store/global/storeState";
 import { Topmenu } from "./components/ui";
-import { Login } from "./components/auth/Login";
+import { Login } from "./api/auth/Login";
 
 export default function Home() {
   const isLogin = useGlobalstate( state => state.isLogin)
